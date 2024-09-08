@@ -6,7 +6,7 @@
 如果你希望购买一些现成的代理服务,可选择下述代理服务
 - [搬瓦工官方机场](https://justmysocks.net/members/aff.php?aff=16884)  
 
-Documentation: [English version](https://github.com/fscarmen2/gh_proxy/blob/main/README_EN.md) | 中文版
+Documentation: [English version](https://github.com/uszhen/my-gh_proxy/blob/main/README_EN.md) | 中文版
 
 ## 优点：
 * 双栈反代：使用 Cloudflare edge 反向代理目标网，可以让 IPv6 无障碍访问 IPv4 网站
