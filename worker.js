@@ -36,7 +36,7 @@ async function handleRequest(request) {
     const isDomainAllowed = targetDomains.some(domain => targetUrl.startsWith(domain))
     if (!isDomainAllowed) {
       // 如要提示允许的目标地址，可以在 return 处加上 Allowed domains are: ${targetDomains.join(", ")}
-      return new Response(` Error: Invalid target domain.\n Github: https://github.com/fscarmen2/gh_proxy\n`, { status: 400 })
+      return new Response(` Error: Invalid target domain.\n Github: https://github.com/uszhen/my-gh_proxy\n`, { status: 400 })
     }
 
     // 判断 URL 是否包含白名单中的字符串（不区分大小写）
