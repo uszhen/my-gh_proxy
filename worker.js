@@ -28,7 +28,7 @@ async function handleRequest(request) {
 
   // Check if the target domain is empty
   if (!targetDomain) {
-    return new Response("Github: https://github.com/fscarmen2/gh_proxy\n", { status: 400 })
+    return new Response("Github: https://github.com/uszhen/my-gh_proxy\n", { status: 400 })
   }
 
   if (ENABLE_WHITELIST_CHECK) {
@@ -45,7 +45,7 @@ async function handleRequest(request) {
     )
     if (!isUrlAllowed) {
       // 如要提示允许的白名单，可以在 return 处加上 URL must contain one of the following strings: ${urlWhitelist.join(", ")}
-      return new Response(` Error: The URL is not in the whitelist.\n Github: https://github.com/fscarmen2/gh_proxy\n`, { status: 403 })
+      return new Response(` Error: The URL is not in the whitelist.\n Github: https://github.com/uszhen/my-gh_proxy\n`, { status: 403 })
     }
   }
 
